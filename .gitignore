@@ -1,0 +1,19 @@
+# Claude Code local config
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Local development
+.env
+.env.local
