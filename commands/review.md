@@ -3,7 +3,7 @@ description: Zrób code review bieżącego pliku
 argument-hint: [sciezka-do-pliku]
 ---
 
-# /review
+# /ai-msdt:review
 
 ## Cel
 Przeprowadź dokładne code review wskazanego pliku.

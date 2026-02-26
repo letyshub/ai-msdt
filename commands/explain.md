@@ -3,7 +3,7 @@ description: Wyjaśnij działanie kodu
 argument-hint: [sciezka-do-pliku]
 ---
 
-# /explain
+# /ai-msdt:explain
 
 ## Cel
 Wyjaśnij działanie wskazanego kodu w przystępny sposób.

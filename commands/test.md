@@ -3,7 +3,7 @@ description: Napisz testy dla wskazanego kodu
 argument-hint: [sciezka-do-pliku]
 ---
 
-# /test
+# /ai-msdt:test
 
 ## Cel
 Napisz testy jednostkowe dla wskazanego kodu.
