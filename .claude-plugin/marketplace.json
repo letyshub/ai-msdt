@@ -1,0 +1,17 @@
+{
+  "name": "letyshub",
+  "owner": {
+    "name": "letyshub"
+  },
+  "plugins": [
+    {
+      "name": "ai-msdt",
+      "description": "AI-powered Multi-Stack Development Toolkit - agenty i narzędzia dla fullstack developera (.NET, React, Angular, Go, TS, Python)",
+      "version": "1.0.0",
+      "author": {
+        "name": "letyshub"
+      },
+      "source": "./"
+    }
+  ]
+}

@@ -4,10 +4,5 @@
   "version": "1.0.0",
   "author": {
     "name": "letyshub"
-  },
-  "rules": [
-    "Never include 'Co-Authored-By' or any AI attribution in git commits",
-    "Do not mention Claude, AI assistants, or automated tools in commit messages",
-    "Commit messages should appear as if written by a human developer"
-  ]
+  }
 }
