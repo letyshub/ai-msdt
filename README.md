@@ -1,6 +1,6 @@
 # AI-MSDT (Multi-Stack Development Toolkit)
 
-Plugin do Claude Code CLI z agentami i narzędziami dla fullstack developera.
+Claude Code CLI plugin with agents and tools for fullstack developers.
 
 ## Stack
 
@@ -10,56 +10,58 @@ Plugin do Claude Code CLI z agentami i narzędziami dla fullstack developera.
 - Go
 - Python
 
-## Zawartość
+## Contents
 
-### Agenty (12)
+### Agents (12)
 
-| Agent | Opis |
-|-------|------|
-| `architect` | Architekt systemu |
-| `api-designer` | Projektant API (REST/gRPC) |
+| Agent | Description |
+|-------|-------------|
+| `architect` | System architect |
+| `api-designer` | API designer (REST/gRPC) |
 | `code-reviewer` | Code reviewer |
-| `refactor-advisor` | Doradca refaktoryzacji |
-| `test-engineer` | Inżynier testów |
-| `security-auditor` | Audytor bezpieczeństwa |
-| `db-architect` | Architekt baz danych |
-| `devops-engineer` | Inżynier DevOps |
+| `refactor-advisor` | Refactoring advisor |
+| `test-engineer` | Test engineer |
+| `security-auditor` | Security auditor |
+| `db-architect` | Database architect |
+| `devops-engineer` | DevOps engineer |
 | `docs-writer` | Technical writer |
-| `debugger` | Debugger / diagnostyk |
-| `performance-tuner` | Specjalista od wydajności |
-| `ux-consultant` | Konsultant UX |
+| `debugger` | Debugger / diagnostician |
+| `performance-tuner` | Performance specialist |
+| `ux-consultant` | UX consultant |
 
-### Komendy
+### Commands
 
-- `/review [plik]` — code review
-- `/explain [plik]` — wyjaśnienie kodu
-- `/test [plik]` — generowanie testów
+- `/ai-msdt:review [file]` — code review
+- `/ai-msdt:explain [file]` — explain code
+- `/ai-msdt:test [file]` — generate tests
+- `/ai-msdt:feature [description]` — design and implement a feature
+- `/ai-msdt:mockup [description]` — generate UI mockups (ASCII + Excalidraw JSON)
 
-### Skille
+### Skills
 
-- `fullstack-conventions` — konwencje nazewnictwa i struktury
+- `fullstack-conventions` — naming and structure conventions
 
-## Instalacja
+## Installation
 
 ```bash
-# Dodaj marketplace (jeśli nie masz)
+# Add the marketplace (if not already added)
 /plugin marketplace add letyshub/ai-msdt
 
-# Zainstaluj plugin
+# Install the plugin
 /plugin install ai-msdt@letyshub
 ```
 
-## Użycie
+## Usage
 
-Po instalacji i restarcie Claude Code:
+After installation and restarting Claude Code:
 
 ```bash
-# Użyj komendy
+# Use a command
 /ai-msdt:review src/app.ts
 
-# Agenty są dostępne automatycznie dla Claude
+# Agents are automatically available to Claude
 ```
 
-## Licencja
+## License
 
 MIT

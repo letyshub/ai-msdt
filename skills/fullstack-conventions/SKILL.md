@@ -1,39 +1,39 @@
 ---
 name: fullstack-conventions
-description: Konwencje i wzorce dla projektów fullstack (.NET, React, Angular, Go, TS, Python)
+description: Conventions and patterns for fullstack projects (.NET, React, Angular, Go, TS, Python)
 globs: ["**/*.cs", "**/*.ts", "**/*.tsx", "**/*.vue", "**/*.go", "**/*.py", "**/*.jsx"]
 ---
 
-# Konwencje Fullstack
+# Fullstack Conventions
 
-## Struktura projektu
-- Oddzielaj warstwy: transport → logika biznesowa → dane
-- Feature-based structure dla frontendów
-- Clean Architecture dla .NET
+## Project structure
+- Separate layers: transport → business logic → data
+- Feature-based structure for frontends
+- Clean Architecture for .NET
 
-## Nazewnictwo
-- **Klasy/typy**: PascalCase
-- **Funkcje/metody**: camelCase (TS/Go), snake_case (Python), PascalCase (.NET)
-- **Zmienne**: camelCase (TS/Go/.NET), snake_case (Python)
-- **Stałe**: SCREAMING_SNAKE_CASE
-- **Pliki komponentów**: PascalCase (React/Angular/Vue)
+## Naming
+- **Classes/types**: PascalCase
+- **Functions/methods**: camelCase (TS/Go), snake_case (Python), PascalCase (.NET)
+- **Variables**: camelCase (TS/Go/.NET), snake_case (Python)
+- **Constants**: SCREAMING_SNAKE_CASE
+- **Component files**: PascalCase (React/Angular/Vue)
 
 ## Error handling
-- Używaj Result pattern zamiast exceptions gdzie możliwe
-- Loguj z kontekstem (correlation ID, user ID)
-- Nie ukrywaj błędów — propaguj do warstwy wyżej
+- Prefer Result pattern over exceptions where possible
+- Log with context (correlation ID, user ID)
+- Never swallow errors — propagate to the layer above
 
 ## API
-- RESTful: rzeczowniki, HTTP verbs, poprawne status codes
-- Zawsze pagination dla list
-- Wersjonowanie przez URL path
+- RESTful: nouns, HTTP verbs, correct status codes
+- Always paginate lists
+- Version via URL path
 
-## Testy
+## Tests
 - AAA pattern (Arrange-Act-Assert)
-- Nazwy opisują zachowanie
+- Test names describe behaviour
 - 70% unit / 20% integration / 10% E2E
 
 ## Git
 - Conventional commits: feat/fix/refactor/docs/test/chore
-- Małe, atomowe commity
+- Small, atomic commits
 - Branch per feature

@@ -1,20 +1,20 @@
 ---
-description: Wyjaśnij działanie kodu
-argument-hint: [sciezka-do-pliku]
+description: Explain how the code works
+argument-hint: [file-path]
 ---
 
 # /ai-msdt:explain
 
-## Cel
-Wyjaśnij działanie wskazanego kodu w przystępny sposób.
+## Goal
+Explain the given code in a clear and accessible way.
 
-## Instrukcje
-1. Opisz ogólny cel i przeznaczenie kodu
-2. Wyjaśnij kluczowe elementy i ich współdziałanie
-3. Wskaż wzorce projektowe, jeśli występują
-4. Wyjaśnij trudniejsze fragmenty z przykładami
+## Instructions
+1. Describe the overall purpose and intent of the code
+2. Explain key components and how they interact
+3. Identify design patterns if present
+4. Clarify complex sections with concrete examples
 
-## Format odpowiedzi
-- Zacznij od podsumowania w 2-3 zdaniach
-- Używaj diagramów ASCII jeśli pomagają
-- Wyjaśniaj terminy techniczne
+## Output format
+- Start with a 2-3 sentence summary
+- Use ASCII diagrams where they help
+- Define technical terms inline

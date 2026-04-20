@@ -1,20 +1,20 @@
 ---
-description: Napisz testy dla wskazanego kodu
-argument-hint: [sciezka-do-pliku]
+description: Write tests for the specified code
+argument-hint: [file-path]
 ---
 
 # /ai-msdt:test
 
-## Cel
-Napisz testy jednostkowe dla wskazanego kodu.
+## Goal
+Write unit tests for the specified code.
 
-## Instrukcje
-1. Zidentyfikuj publiczne API do przetestowania
-2. Określ edge case'y i warunki brzegowe
-3. Napisz testy w odpowiednim frameworku dla stacku
-4. Użyj wzorca AAA (Arrange-Act-Assert)
+## Instructions
+1. Identify the public API to test
+2. Determine edge cases and boundary conditions
+3. Write tests using the appropriate framework for the stack
+4. Follow the AAA pattern (Arrange-Act-Assert)
 
-## Reguły
-- Nazwy testów opisują zachowanie: `Should_DoSomething_When_Condition`
-- Jeden powód do faila na test
-- Uwzględnij: happy path, edge cases, error handling
+## Rules
+- Test names describe behaviour: `Should_DoSomething_When_Condition`
+- One reason to fail per test
+- Cover: happy path, edge cases, error handling

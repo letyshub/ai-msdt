@@ -1,19 +1,19 @@
 ---
-description: Zrób code review bieżącego pliku
-argument-hint: [sciezka-do-pliku]
+description: Review the current file for quality, security, and best practices
+argument-hint: [file-path]
 ---
 
 # /ai-msdt:review
 
-## Cel
-Przeprowadź dokładne code review wskazanego pliku.
+## Goal
+Perform a thorough code review of the specified file.
 
-## Instrukcje
-1. Przeanalizuj kod pod kątem: czytelności, wydajności, bezpieczeństwa, zgodności z best practices
-2. Wskaż konkretne linie, które wymagają poprawy
-3. Zaproponuj alternatywne rozwiązania z fragmentami kodu
-4. Podsumuj w skali 1-10 z uzasadnieniem
+## Instructions
+1. Analyse the code for readability, performance, security, and best-practice compliance
+2. Point to specific lines that need improvement
+3. Propose alternative solutions with code snippets
+4. Give an overall score from 1–10 with a rationale
 
-## Format odpowiedzi
-- Używaj bloków kodu z numerami linii
-- Grupuj uwagi wg priorytetu: krytyczne → ważne → sugestie
+## Output format
+- Use code blocks with line numbers
+- Group findings by priority: critical → important → suggestions

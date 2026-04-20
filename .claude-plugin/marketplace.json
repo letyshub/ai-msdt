@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "ai-msdt",
-      "description": "AI-powered Multi-Stack Development Toolkit - agenty i narzędzia dla fullstack developera (.NET, React, Angular, Go, TS, Python)",
+      "description": "AI-powered Multi-Stack Development Toolkit — agents and tools for fullstack developers (.NET, React, Angular, Go, TS, Python)",
       "version": "1.0.0",
       "author": {
         "name": "letyshub"

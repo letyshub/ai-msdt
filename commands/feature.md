@@ -1,43 +1,43 @@
 ---
-description: Zaprojektuj i zaimplementuj nową funkcjonalność
-argument-hint: [opis-funkcjonalności]
+description: Design and implement a new feature
+argument-hint: [feature-description]
 ---
 
 # /ai-msdt:feature
 
-## Cel
-Zaprojektuj i zaimplementuj nową funkcjonalność od specyfikacji po gotowy kod.
+## Goal
+Design and implement a new feature from specification to working code.
 
-## Instrukcje
+## Instructions
 
-### 1. Analiza wymagań
-- Zrozum cel funkcjonalności i jej wartość biznesową
-- Zidentyfikuj użytkowników i przypadki użycia
-- Określ zależności z istniejącym kodem
+### 1. Requirements analysis
+- Understand the feature's goal and business value
+- Identify users and use cases
+- Determine dependencies on existing code
 
-### 2. Projekt
-- Zaproponuj architekturę rozwiązania (komponenty, interfejsy, przepływ danych)
-- Wskaż pliki do modyfikacji i nowe pliki do utworzenia
-- Opisz kontrakt publicznego API
+### 2. Design
+- Propose a solution architecture (components, interfaces, data flow)
+- List files to modify and new files to create
+- Describe the public API contract
 
-### 3. Implementacja
-- Napisz kod zgodny z konwencjami projektu
-- Zastosuj wzorce projektowe adekwatne do problemu
-- Zadbaj o obsługę błędów i walidację danych wejściowych
+### 3. Implementation
+- Write code consistent with project conventions
+- Apply design patterns appropriate to the problem
+- Handle errors and validate inputs at system boundaries
 
-### 4. Testy
-- Napisz testy jednostkowe dla kluczowej logiki
-- Uwzględnij happy path, edge cases i error handling
-- Użyj wzorca AAA (Arrange-Act-Assert)
+### 4. Tests
+- Write unit tests for critical logic
+- Cover happy path, edge cases, and error handling
+- Use the AAA pattern (Arrange-Act-Assert)
 
-## Reguły
-- Nie dodawaj kodu poza zakresem zadania
-- Kod musi być bezpieczny (bez SQL injection, XSS, command injection)
-- Minimalna złożoność — trzy podobne linie są lepsze niż przedwczesna abstrakcja
-- Żadnych feature flags ani kompatybilności wstecznej, jeśli nie są wymagane
+## Rules
+- Do not add code outside the task scope
+- Code must be secure (no SQL injection, XSS, command injection)
+- Minimal complexity — three similar lines beat a premature abstraction
+- No feature flags or backwards-compatibility shims unless explicitly required
 
-## Format odpowiedzi
-1. **Podsumowanie** — co zostanie zbudowane i dlaczego
-2. **Plan zmian** — lista plików z krótkim opisem zmian
-3. **Kod** — implementacja z numerami linii
-4. **Testy** — testy dla nowej funkcjonalności
+## Output format
+1. **Summary** — what will be built and why
+2. **Change plan** — list of files with a short description of each change
+3. **Code** — implementation with line numbers
+4. **Tests** — tests for the new functionality
